@@ -10,6 +10,12 @@ An interactive, Arduino-based calculator that uses the Serial Monitor for user i
 
 ---
 
+## Circuit
+
+![Circuit Diagram](circuit.png)
+
+---
+
 ## How It Works
 
 The program waits for input via the Serial Monitor (num1, op, num2). It than calculates the answer using the given numbers and operators. All prompts and the final answer are displayed on a 16x2 LCD screen using IC2 protocol.
